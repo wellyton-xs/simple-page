@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/regist.css">
+    
+</head>
+<body>
+
+    <div class="main">
+        <div class="left">
+            <h1></h1>
+            <img src="/images/room2.svg" class="left-image" alt="computador com página web flutuando">
+            <a href="https://storyset.com/home">Home illustrations by Storyset</a>
+        </div>
+        
+        <div class="right">
+            <div class="card">
+                <h1>CADASTRO</h1>
+
+                <div id="msgError">a</div>
+                <div id="msgSuccess">a</div>
+
+                <div class="textfield">
+                    <label for="name" id="labelName">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="name" required>
+
+                    <label for="senha" id="labelSenha">senha</label>
+                    <input type="password" name="senha" placeholder="senha" id="senha" required>
+                    
+                    <label for="senha2" id="labelSenha2">confirme a senha</label>
+                    <input type="password" name="senha" placeholder="confirme a senha" id="senha2" required>
+                </div>
+                <button class="btn" onclick="cadastrar()">
+                    cadastre-se
+                </button>
+                <a href="index.html" class="link">já tem uma conta? faça login</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/main.js"></script>
+</html>
